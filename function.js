@@ -16,34 +16,40 @@
 // }
 // console.log(calculateEngravingPrice("hello", 4));
 
-function findLongestWord(string) {
-  const words = string.trim().split("");
-  let longestWord = words[0];
+// function findLongestWord(string) {
+//   const words = string.split(" ");
+//   let longestWord = "";
 
-  for (const word of words) {
-    if (word.length > longestWord.length) {
-      longestWord = word;
-    }
-  }
+//   for (const word of words) {
+//     if (word.length > longestWord.length) {
+//       longestWord = word;
+//     }
+//   }
 
-  return longestWord;
-}
-console.log(findLongestWord("Hello i word i IT"));
+//   return longestWord;
+// }
+// console.log(findLongestWord("Hello i word i IT"));
 
-function formatString(string) {
-  if (string.length <= 40) {
-    return string;
-  }
-  return string.slice(0, 40) + "...";
-}
+// function formatString(string) {
+//   if (string.length <= 40) {
+//     return string;
+//   }
+//   return string.slice(0, 40) + "...";
+// }
+// console.log(
+//   formatString(
+//     "Hello i word i ITffffffffffffffffffffffffffffffffffffffffffffffffffff"
+//   )
+// );
 
-function checkForSpam(message) {
-  const lowerCaseMessage = message.toLowerCase();
-  return (
-    lowerCaseMessage.includes("spam") ||
-    lowerCaseMessage.includes("sale")
-  );
-}
+// function checkForSpam(message) {
+//   const lowerCaseMessage = message.toLowerCase();
+//   return (
+//     lowerCaseMessage.includes("spam") ||
+//     lowerCaseMessage.includes("sale")
+//   );
+// }
+// console.log(checkForSpam("Best buy/sale offer"));
 
 // const numbers = [];
 // let input;
